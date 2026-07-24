@@ -100,7 +100,7 @@
   .btn-outline{background:transparent;border-color:var(--navy);color:var(--navy);}
   .hero-art{
     aspect-ratio:4/5;border-radius:20px;
-    background:linear-gradient(160deg,var(--navy) 0%, #14306e 60%, var(--gold) 145%);
+    background:linear-gradient(160deg,var(--white) 0%, #14306e 60%, var(--gold) 145%);
     position:relative;
     display:flex;align-items:center;justify-content:center;
   }
