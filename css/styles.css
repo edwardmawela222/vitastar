@@ -120,11 +120,16 @@
   section.block{padding:64px 0;}
   .two-col{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start;}
   .photo-slot{
-    aspect-ratio:3/4;border-radius:16px;
-    background:repeating-linear-gradient(135deg, var(--gold-light), var(--gold-light) 10px, #f2ebdd 10px, #f2ebdd 20px);
-    border:1px dashed var(--gold);
-    display:flex;align-items:center;justify-content:center;
-    color:var(--gold);font-size:.8rem;letter-spacing:.04em;text-align:center;padding:20px;
+    aspect-ratio:3/4;
+    border-radius:16px;
+    overflow:hidden;
+    
+  }
+  img.photo-slot{
+    object-fit: cover;
+    width: 100%;
+    border:none;
+    background: none;
   }
 
   /* services */
